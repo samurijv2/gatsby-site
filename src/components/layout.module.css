@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    max-width: 40em;
+    font:1.2em/1.62 sans-serif;
+}
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 3rem;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+.site-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+  }
+
+
+ 
