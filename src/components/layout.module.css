@@ -36,7 +36,7 @@ a {
   .nav-link-item {display: inline-block;}
 }
 @media screen and (max-width: 600px){
-  .container {font-size: 90%;}
+  .container {font-size: 95%;}
 }
 .nav-links {
   list-style: none;
@@ -44,7 +44,7 @@ a {
   margin-bottom: 2rem;
 }
 .nav-link-item {
-  padding-right: 1.3rem;
+  padding-right: 1rem;
   font-family: sans-serif;
 }
 .site-title {
