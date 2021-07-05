@@ -9,6 +9,14 @@ import {
   siteTitle,
   content,
   media, 
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  footer
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -23,7 +31,8 @@ const Layout = ({ pageTitle, children }) => {
     `)
   
     return (
-      <main className={container}>
+      <main>
+        <div className={container}>
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
         <div>
           <p className={siteTitle}>{data.site.siteMetadata.title}</p>
@@ -65,8 +74,13 @@ const Layout = ({ pageTitle, children }) => {
         <div className={content}>
           <h1>{pageTitle}</h1>
           {children}
+          <footer>
+            <hr></hr>
+            © {new Date().getFullYear()} Waymire Analytics LLC, Built with {` `} <a href="https://www.gatsbyjs.com">Gatsby</a>
+          </footer>
         </div>
-      </main>
+        </div>
+      </main>  
     )
   }
   

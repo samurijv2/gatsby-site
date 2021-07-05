@@ -24,12 +24,12 @@ const IndexPage = () => {
       </ul>
       <h3>Can I help?</h3>
       <p>As a lead gen specialist, my services may be a good fit for you if:</p>
-      <ul>
+      <ol>
         <li>You're a small business.</li>
         <li>You're a local service provider (e.g. a dentist, realtor, lawyer, roofer, plumber, etc.).</li>
         <li>Your new customers usually make first contact online or by phone. In other words, you don’t get many walk-ins.</li>
-      </ul>
-      <p>If you have a digital marketing project you’d like my help with, please <Link to="/contact" className={navLinkText}>get in touch.</Link></p>
+      </ol>
+      <p><strong>If you have a digital marketing project you’d like my help with, please <Link to="/contact" className={navLinkText}>get in touch.</Link></strong></p>
     </Layout>
   )
 }

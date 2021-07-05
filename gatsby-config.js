@@ -4,14 +4,20 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    "gatsby-plugin-catch-links",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
         path: `${__dirname}/blog`,
+        name: "blog"
       }
     },
-  ],
-};
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
+      }
+    }
+  ]
+}
