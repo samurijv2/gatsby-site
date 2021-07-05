@@ -36,7 +36,7 @@ a {
   .nav-link-item {display: inline-block;}
 }
 @media screen and (max-width: 600px){
-  .container {font-size: 95%;}
+  .container {font-size: 100%;}
 }
 .nav-links {
   list-style: none;
