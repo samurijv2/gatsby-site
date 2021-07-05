@@ -6,6 +6,7 @@
     padding-left: 1em;
     padding-right: 1em;
     font:1.2em/1.62 Georgia, Times, Times, Serif;
+    font-size: 100%;
 }
 h1,
 h2,
@@ -25,18 +26,11 @@ a {
   a {color:white}
 
 }
-@media screen and (min-width: 801px){
-  .container {font-size: 100%;} 
-}	
 @media screen and (max-width: 800px){
   .container {
-    font-size: 100%;
     display: inline-block;
   }
   .nav-link-item {display: inline-block;}
-}
-@media screen and (max-width: 600px){
-  .container {font-size: 100%;}
 }
 .nav-links {
   list-style: none;
@@ -44,7 +38,7 @@ a {
   margin-bottom: 2rem;
 }
 .nav-link-item {
-  padding-right: 1rem;
+  padding-right: .8rem;
   font-family: sans-serif;
 }
 .site-title {
