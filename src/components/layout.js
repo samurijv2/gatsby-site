@@ -16,6 +16,7 @@ import {
   h4,
   h5,
   h6,
+  blogPosts,
   footer
 } from './layout.module.css'
 

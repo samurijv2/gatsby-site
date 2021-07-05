@@ -40,6 +40,8 @@ a {
 .nav-link-item {
   padding-right: .8rem;
   font-family: sans-serif;
+  color: black;
+  text-decoration: underline;
 }
 .site-title {
   font-weight: 700;
@@ -53,5 +55,6 @@ footer {
   margin-top:60px;
   margin-bottom:20px;
 }
+
 
  
