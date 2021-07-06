@@ -7,10 +7,9 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Hi, I'm Sam.">
       <h3>I help local businesses attract more customers online.</h3>
-      <p>If you've arrived at this site, you’re probably assessing whether digital marketing can help you achieve your business goals. You may be new to marketing your business online, or perhaps you had a bad experience with it in the past.</p>
-      <h3>It’s valid to question whether digital marketing will even work at all.</h3> 
-      <p>"How can I be sure that running Facebook ads or improving my Google rank will increase sales?" You might be wondering. These are important questions, and satisfying answers are elusive.</p> 
-      <p>Here are a few links to help you make an informed decision for your business: </p>
+      <p>If you've arrived at this site, you’re probably assessing whether digital marketing can help you achieve your business goals. You may be new to marketing your business online, or perhaps you had a bad experience with it in the past.</p> 
+      <p>It’s valid to question whether digital marketing will even work at all. "How can I be sure that running Facebook ads or improving my Google rank will increase sales?" You might be wondering. These are important questions, and satisfying answers are elusive.</p> 
+      <p><strong>Here are a few links to help you make an informed decision for your business: </strong></p>
       <ul>
         <li>Curious whether digital marketing will actually work for your business? <Link to="/" className={navLinkText}>Pilot campaigns</Link> are low cost, low-commitment projects that help you know for sure whether digital ads are worth it for you. </li>
         <br></br>
