@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: "Sam Waymire",
@@ -11,6 +13,16 @@ module.exports = {
       options: {
         path: `${__dirname}/blog`,
         name: "blog"
+      }
+    }, 
+    {
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: '1lbx4kp3',
+        dataset: 'production',
+        token: process.env.SANITY_TOKEN,
+        watchMode: true,
+        overlayDrafts: true
       }
     },
     {
