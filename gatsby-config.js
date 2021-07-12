@@ -30,6 +30,13 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-fathom',
+      options: {
+        trackingUrl: 'https://cdn.usefathom.com/',
+        siteId: 'SYUPRFVQ',
+        }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [] // just in case those previously mentioned remark plugins sound cool :)
