@@ -24,6 +24,11 @@ const Blog = props => {
   return (
 
     <Layout>
+       <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+        />
       <SEO
         title={props.data.sanityPost.title}
         description="I still need to add an excerpt field"

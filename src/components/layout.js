@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Helmet } from "react-helmet"
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import { SEO } from './SEO'
 import {
@@ -33,6 +34,11 @@ const Layout = ({ pageTitle, children }) => {
   
     return (
      <main>
+       <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+        />
         <SEO />
         <div className={container}>
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
