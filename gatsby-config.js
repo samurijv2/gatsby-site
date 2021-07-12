@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-fathom',
       options: {
-        trackingUrl: 'https://cdn.usefathom.com/',
+        trackingUrl: 'https://cdn.usefathom.com/script.js',
         siteId: 'SYUPRFVQ',
         }
     },
