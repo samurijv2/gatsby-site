@@ -1,9 +1,14 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { SEO } from '../components/SEO'
 
 const FAQsPage = () => {
   return (
     <Layout pageTitle="Frequently Asked Questions">
+       <SEO
+       title="Frequently Asked Questions - Sam Waymire" 
+       description="I get asked these questions a lot."
+      />
       <h3>Why do you require a committment?</h3>
       <p>Like all investments, digital marketing takes time to generate a return. Google can take months to reflect your site's SEO improvements in its search rankings. New ad campaigns can't reach peak performance without hours of upfront work and many rounds of optimization. A minimum term ensures your account has the time it needs to deliver meaningful results.</p>
       <h3>Why's there a minimum ad spend for paid search and social campaigns?</h3>

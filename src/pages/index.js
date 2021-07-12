@@ -2,10 +2,15 @@ import * as React from 'react'
 import { Link } from 'gatsby' 
 import { navLinkText} from '../components/layout.module.css'
 import Layout from '../components/layout'
+import { SEO } from '../components/SEO'
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Hi, I'm Sam.">
+       <SEO
+       title="Homepage - Sam Waymire" 
+       description="You found my beautiful website!"
+      />
       <h3>I help local businesses attract more customers online.</h3>
       <p>If you've arrived at this site, you’re probably assessing whether digital marketing can help you achieve your business goals. You may be new to marketing your business online, or perhaps you had a bad experience with it in the past.</p> 
       <p>It’s valid to question whether digital marketing will even work at all. "How can I be sure that running Facebook ads or improving my Google rank will increase sales?" You might be wondering. These are important questions, and satisfying answers are elusive.</p> 

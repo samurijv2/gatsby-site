@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import { SEO } from './SEO'
 import {
   container,
   heading,
@@ -32,6 +33,7 @@ const Layout = ({ pageTitle, children }) => {
   
     return (
      <main>
+        <SEO />
         <div className={container}>
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
         <div>

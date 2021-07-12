@@ -2,6 +2,7 @@ import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import { blogDate, blogLink } from '../components/layout.module.css'
+import { SEO } from '../components/SEO'
 
 export const query = graphql`
 query BlogPageQuery {
@@ -22,6 +23,10 @@ query BlogPageQuery {
 const BlogPage = ({ data }) => {    
   return (  
     <Layout pageTitle="My Blog Posts">
+       <SEO
+       title="Blog - Sam Waymire" 
+       description="Welcome to my blog"
+      />
       <ul style={{listStyle:"none"}}>
           {data.allSanityPost.edges.map(posts => (
             <li key={posts.node.title} style={{marginBottom:"0.3rem"}}>

@@ -3,6 +3,10 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: "Sam Waymire",
+    description: "my cool marketing website",
+    url: "https://samwaymire.com",
+    author: "Sam Waymire",
+    keywords: ["digital marketing", "google ads"]
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",

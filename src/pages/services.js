@@ -1,9 +1,14 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { SEO } from '../components/SEO'
 
 const ServicesPage = () => {
   return (
     <Layout pageTitle="Services">
+      <SEO
+       title="Services" 
+       description="These are the things I can do for you."
+      />
       <h3>Paid Search</h3>
       <p>Paid search campaigns allow you to run ads within a search engine like Google, Bing, or Yahoo. These campaigns listen for search terms that signal interest in whatever you sell. When a user searches such a term, your ad is displayed alongside the organic results. </p>
       <p><strong>Perfect for: </strong>anyone who wants a reliable way to place their site on the front page of search results. Paid search allows you to leapfrog the competition when your site doesn't rank well on its own.</p>
