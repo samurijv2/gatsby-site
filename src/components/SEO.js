@@ -10,7 +10,7 @@ export const SEO = ({description, keywords, title, image, url, author}) => {
                 const metaDescription = description || data.site.siteMetadata.description
                 const metaTitle = title || data.site.siteMetadata.title
                 const metaAuthor = author || data.site.siteMetadata.author
-                const metaUrl = url || data.site.siteMetadata.url
+                const metaUrl = url || data.site.siteMetadata.siteUrl
                 const metaKeywords = keywords || ["digital marketing", "google ads"]
                 return (
                     <Helmet
@@ -71,7 +71,7 @@ const detailsQuery = graphql`
               author
               description
               title
-              url
+              siteUrl
               keywords
             }
           }
