@@ -32,6 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-fathom',
       options: {
+        trackingUrl: 'tigershark.samwaymire.com',
         siteId: 'SYUPRFVQ',
         }
     },
