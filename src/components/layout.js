@@ -19,6 +19,7 @@ import {
   h4,
   h5,
   h6,
+  standardBulletedList,
   footerLinks
 } from './layout.module.css'
 

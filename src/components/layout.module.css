@@ -28,6 +28,9 @@ a {
 .nav-link-text {
   text-decoration: underline;
 }
+.standard-bulleted-list {
+  margin-bottom: 1rem;
+}
 
 @media (prefers-color-scheme: dark){
   body {color:#fff;background:#2b2d2f;}
