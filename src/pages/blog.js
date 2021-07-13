@@ -30,7 +30,7 @@ const BlogPage = ({ data }) => {
       <ul style={{listStyle:"none"}}>
           {data.allSanityPost.edges.map(posts => (
             <li key={posts.node.title} style={{marginBottom:"0.3rem"}}>
-            <a className={blogLink} href={posts.node.slug.current}>{posts.node.title}</a><span className={blogDate}>{posts.node.publishedAt}</span>    
+            <Link className={blogLink} to={posts.node.slug.current}>{posts.node.title}</Link><span className={blogDate}>{posts.node.publishedAt}</span>    
           </li>
           ))
           }    

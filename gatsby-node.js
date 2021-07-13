@@ -12,6 +12,7 @@ exports.createPages = async ({ graphql, actions }) => {
           current
         }
         _createdAt
+        _updatedAt
         body {
           children {
             text
@@ -32,9 +33,12 @@ exports.createPages = async ({ graphql, actions }) => {
     const path = `${edge.node.slug.current}`
 
     createPage({
-      path,
+      path: 'blog/' + path,
       component: require.resolve("./src/templates/blog-post.js"),
-      context: { slug: edge.node.slug.current },
+      context: { 
+        lastmod: edge.node._updatedAt,
+        slug: edge.node.slug.current 
+      },
     })
   })
 }

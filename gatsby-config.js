@@ -12,8 +12,8 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
