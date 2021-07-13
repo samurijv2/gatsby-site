@@ -19,33 +19,39 @@ h6 {
 a {
   color: black;
 }
-@media (prefers-color-scheme: dark){
-  body {color:#fff;background:#2b2d2f;}
-  title {color:white}
-  a {color:white}
-
-}
-@media screen and (max-width: 800px){
-  .container {
-    display: inline-block;
-  }
-  .nav-link-item {display: inline-block;}
-}
-.nav-links {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 2rem;
-  text-decoration: none;
-}
 .nav-link-item {
   padding-right: 5px;
   font-family: sans-serif;
   color: black;
-  text-decoration: none;
+  text-decoration: none;  
 }
 .nav-link-text {
-  color: black;
   text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark){
+  body {color:#fff;background:#2b2d2f;}
+  title {color:white;}
+  a {color:white;}
+  .nav-link-item {color: white};
+  .nav-link-text {color: white;}
+}
+@media screen and (min-width: 401px) and (max-width: 800px){
+  .container {display: inline-block;}
+  .nav-link-item {display: inline-block;}
+}
+@media screen and (max-width: 400px){
+  .container {display: inline-block;}
+}
+.nav-links {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2.5rem;
+  text-decoration: none;
+}
+
+.nav-link-item-active:after {
+  content: " ⇠";
 }
 .site-title {
   font-weight: 700;
@@ -53,7 +59,7 @@ a {
   font-family: sans-serif;
 }
 .content {
-  margin-top:-10px;
+  margin-top:-20px;
 }
 footer {
   margin-top:60px;
@@ -67,6 +73,8 @@ footer {
 .blog-date {
   float: right;
 }
-
+.footer-links {
+  float: right;
+}
 
  

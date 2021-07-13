@@ -7,6 +7,7 @@ import {
   heading,
   navLinks,
   navLinkItem,
+  navLinkItemActive,
   navLinkText,
   siteTitle,
   content,
@@ -18,7 +19,7 @@ import {
   h4,
   h5,
   h6,
-  footer
+  footerLinks
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -47,32 +48,32 @@ const Layout = ({ pageTitle, children }) => {
           <nav>
             <ul className={navLinks}>
               <li className={navLinkItem}>
-                <Link to="/" className={navLinkItem}>
+                <Link to="/" className={navLinkItem} activeClassName={navLinkItemActive}>
                   Home
                 </Link>
               </li>
               <li className={navLinkItem}>
-                <Link to="/services" className={navLinkItem}>
+                <Link to="/services" className={navLinkItem} activeClassName={navLinkItemActive}>
                   Services
                 </Link>
               </li>
               <li className={navLinkItem}>
-                <Link to="/pricing" className={navLinkItem}>
+                <Link to="/pricing" className={navLinkItem} activeClassName={navLinkItemActive}>
                   Pricing
                 </Link>
               </li>
               <li className={navLinkItem}>
-                <Link to="/FAQs" className={navLinkItem}>
+                <Link to="/FAQs" className={navLinkItem} activeClassName={navLinkItemActive}>
                   FAQs
                 </Link>
               </li>  
               <li className={navLinkItem}>
-                <Link to="/blog" className={navLinkItem}>
+                <Link to="/blog" className={navLinkItem} activeClassName={navLinkItemActive}>
                   Blog
                 </Link>
               </li>
               <li className={navLinkItem}>
-                <Link to="/contact" className={navLinkItem}>
+                <Link to="/contact" className={navLinkItem} activeClassName={navLinkItemActive}>
                   Contact
                 </Link>
               </li>
@@ -80,11 +81,12 @@ const Layout = ({ pageTitle, children }) => {
           </nav>
         </div>
         <div className={content}>
+          <hr></hr>
           <h1>{pageTitle}</h1>
           {children}
           <footer>
             <hr></hr>
-            © {new Date().getFullYear()} Waymire Analytics LLC, Built with {` `} <a href="https://www.gatsbyjs.com">Gatsby</a>
+            © {new Date().getFullYear()} Waymire Analytics LLC, Built with {` `} <a href="https://www.gatsbyjs.com">Gatsby</a><span className={footerLinks}><Link to="/privacy">Privacy Policy</Link>{' | '}<Link to="/terms">Terms of Service</Link></span>
           </footer>
         </div>
         </div>
