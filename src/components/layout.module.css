@@ -31,7 +31,14 @@ a {
 .standard-bulleted-list {
   margin-bottom: 1rem;
 }
-
+footer {
+  font-size: .8rem;
+  margin-top:60px;
+  margin-bottom:20px;
+}
+.footer-links {
+  float: right;
+}
 @media (prefers-color-scheme: dark){
   body {color:#fff;background:#2b2d2f;}
   title {color:white;}
@@ -39,13 +46,19 @@ a {
   .nav-link-item {color: white};
   .nav-link-text {color: white;}
 }
-@media screen and (min-width: 401px) and (max-width: 800px){
+@media screen and (min-width: 541px) and (max-width: 900px){
   .container {display: inline-block;}
-  .nav-link-item {display: inline-block;}
+  .nav-link-item {display: inline-block; padding-right: 1rem;}
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 540px){
   .container {display: inline-block;}
+  .nav-links {columns: 2; text-align: center;}
+  .nav-link-item {padding: .5rem;}
+  footer {font-size: .75rem;}
+  .copyright {float: left; padding-bottom: .3rem;}
+  .footer-links {float: left; clear: both; padding-bottom: 2rem;}
 }
+
 .nav-links {
   list-style: none;
   padding-left: 0;
@@ -64,10 +77,6 @@ a {
 .content {
   margin-top:-20px;
 }
-footer {
-  margin-top:60px;
-  margin-bottom:20px;
-}
 .blog-link {
   text-align: left;
   display: inline;
@@ -76,8 +85,12 @@ footer {
 .blog-date {
   float: right;
 }
-.footer-links {
-  float: right;
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "👨‍✈️" "💰" "📈" "🤔" "💸";
+  suffix: " "
 }
-
+.repeating-counter-rule {
+  list-style-type: repeating-emoji;
+}
  

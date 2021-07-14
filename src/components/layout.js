@@ -19,7 +19,7 @@ import {
   h4,
   h5,
   h6,
-  standardBulletedList,
+  copyright,
   footerLinks
 } from './layout.module.css'
 
@@ -87,7 +87,7 @@ const Layout = ({ pageTitle, children }) => {
           {children}
           <footer>
             <hr></hr>
-            © {new Date().getFullYear()} Waymire Analytics LLC, Built with {` `} <a href="https://www.gatsbyjs.com">Gatsby</a><span className={footerLinks}><Link to="/privacy">Privacy Policy</Link>{' | '}<Link to="/terms">Terms of Service</Link></span>
+           <span className={copyright}> © {new Date().getFullYear()} Waymire Analytics LLC, Built with {` `} <a href="https://www.gatsbyjs.com">Gatsby</a></span><span className={footerLinks}><Link to="/privacy">Privacy Policy</Link>{' | '}<Link to="/terms">Terms of Service</Link></span>
           </footer>
         </div>
         </div>

@@ -4,7 +4,7 @@ import { SEO } from '../components/SEO'
 
 const FAQsPage = () => {
   return (
-    <Layout pageTitle="Frequently Asked Questions">
+    <Layout pageTitle="🙋 Frequently Asked Questions">
        <SEO
        title="Frequently Asked Questions - Sam Waymire" 
        description="I get asked these questions a lot."
@@ -12,7 +12,7 @@ const FAQsPage = () => {
       <h3>Why do you require a committment?</h3>
       <p>Like all investments, digital marketing takes time to generate a return. Google can take months to reflect your site's SEO improvements in its search rankings. New ad campaigns can't reach peak performance without hours of upfront work and many rounds of optimization. A minimum term ensures your account has the time it needs to deliver meaningful results.</p>
       <h3>Why's there a minimum ad spend for paid search and social campaigns?</h3>
-      <p>Ad campaigns need a wealth of data to perform their best. Every click brings us closer to knowing which ads, keywords, devices, and times of day convert best. It generally takes at least $1000/month to generate the clicks needed to dial in a campaign in a timely fashion.</p>
+      <p>Ad campaigns need a wealth of data to perform their best. Every click brings us closer to knowing which ads, keywords, devices, and times of day convert best. It generally takes at least $500/month to generate the clicks needed to dial in a campaign in a timely fashion.</p>
       <h3>Why owns the campaigns?</h3>
       <p>You do. I build all campaigns within your own ad accounts. If you don't have an account with a specific ad platform, I'll help you set one up. When we go our separate ways, you retain full ownership of the work. </p>
       <h3>Will you bill me for ad spend?</h3>

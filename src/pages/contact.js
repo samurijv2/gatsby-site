@@ -4,7 +4,7 @@ import { SEO } from '../components/SEO'
 
 const ContactPage = () => {
   return (
-    <Layout pageTitle="Contact">
+    <Layout pageTitle="📧 Contact">
        <SEO
        title="Contact - Sam Waymire"
        description="This is how to reach me." 

@@ -22,7 +22,7 @@ query BlogPageQuery {
 
 const BlogPage = ({ data }) => {    
   return (  
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="✍️ Blog">
        <SEO
        title="Blog - Sam Waymire" 
        description="Welcome to my blog"
