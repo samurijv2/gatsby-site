@@ -36,7 +36,7 @@ const PricingPage = () => {
       <h3>What's included in the management fee?</h3>
       <p>The management fee covers everything needed to maintain your campaigns over time. All campaigns are optimized through A/B testing, ad rotation, bid adjustments, ad scheduling, negative keywords and more. I scour the ad landscape for risks and opportunities so you don't have to. My goal is to turn every campaign into a stream of leads that holds steady even in the face of significant changes. The fee also includes weekly reporting and friendly support via email or phone.</p>
         <div className={minimumAdSpend}>
-        <p><strong>I require a $500 per month minimum ad spend for all PPC &amp; SEM plans. For certain industries, a minimum spend of $1,000 per month is recommended.</strong><span className={whyMinimum}><Link to= "/FAQs">Why is there a minimum?</Link></span></p>
+        <p><strong>I require a $500 per month minimum ad spend for all PPC &amp; SEM plans. For certain industries, a minimum spend of $1,000 per month is recommended.</strong><span><Link className={whyMinimum} to= "/FAQs#minimum-ad-spend">Why is there a minimum?</Link></span></p>
         </div>
         <div className={pricingContainer}>
         <div className={pricingColumn}>
@@ -96,7 +96,8 @@ const PricingPage = () => {
       <p style={{lineHeight:"100%"}}><br></br></p>
       <h2 style={{marginBottom:"0px"}}><a id="SEO-prices">SEO &amp; Content Marketing</a></h2>
       <p style={{marginTop:"0px"}}>I offer various SEO and content marketing services through a project-based pricing model. What "project" means to you will depend on where you fall in the <Link to="/">SEO Maturity Model.</Link> Example projects include claiming your listings, writing blog posts, identifying backlink opportunities, etc. Projects vary in scope or size, but they share a common goal of driving a measurable increase in your search rankings. All plans include a site audit &amp; strategy development, weekly progress reporting, and support via email and phone.</p>
-      <p><strong><span style={{fontSize:"1.2em"}}>Lite Tier: </span>one project at a time; 2-4 week project turnaround time.</strong></p>
+      <p style={{lineHeight:"50%"}}><br></br></p>
+      <p><strong>Lite Tier: </strong>one project at a time; 2-4 week project turnaround time.</p>
       <div className={pricingContainer2}>
       <div className={pricingColumn}>
           <p className={valueCallout}>Good deal (17% savings)</p>
@@ -113,7 +114,7 @@ const PricingPage = () => {
         </div>
         <p><strong>A good fit for: </strong>businesses that are farther along in their SEO/content marketing journeys. Companies who can afford to wait a little longer before they see a large increase in organic traffic.</p>
         <p style={{lineHeight:"50%"}}><br></br></p>
-        <p><strong><span style={{fontSize:"1.2em"}}>Plus Tier: </span>two projects at a time; 1-3 week project turnaround time.</strong></p>
+        <p><strong>Plus Tier: </strong>two projects at a time; 1-3 week project turnaround time.</p>
       <div className={pricingContainer2}>
       <div className={pricingColumn}>
           <p className={valueCallout}>Good deal (14% savings)</p>
