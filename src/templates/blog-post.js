@@ -16,6 +16,10 @@ query MyQuery($slug: String!) {
       current
     }
     _rawBody
+    seo {
+      seo_title
+      meta_description
+    }
   }
 }  
 `
@@ -30,8 +34,8 @@ const Blog = props => {
         }}
         />
       <SEO
-        title={props.data.sanityPost.title}
-        description="I still need to add an excerpt field"
+        title={props.data.sanityPost.seo.seo_title}
+        description={props.data.sanityPost.seo.meta_description}
       />
       <h1>{props.data.sanityPost.title}</h1>
       <PortableText
