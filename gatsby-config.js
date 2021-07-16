@@ -10,7 +10,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
-    `gatsby-plugin-netlify-cache`,
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
     'gatsby-plugin-robots-txt',
