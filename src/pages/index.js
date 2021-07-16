@@ -11,7 +11,7 @@ const IndexPage = () => {
        title="Homepage - Sam Waymire" 
        description="You found my beautiful website!"
       />
-      <h2>I help local businesses attract more customers online.</h2>
+      <h2 style={{fontSize:"1.3em"}}>I help local businesses attract more customers online.</h2>
       <p>If you've arrived at this site, you’re probably assessing whether digital marketing can help you achieve your business goals. You may be new to marketing your business online, or perhaps you had a bad experience with it in the past.</p> 
       <p>It’s valid to question whether digital marketing will even work at all. "How can I be sure that running Facebook ads or improving my Google rank will increase sales?" You might be wondering. These are important questions, and satisfying answers are elusive.</p> 
       <p><strong>Here are a few links to help you make an informed decision for your business: </strong></p>
