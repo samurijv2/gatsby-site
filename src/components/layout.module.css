@@ -8,6 +8,16 @@
     font:1.2em/1.62 Georgia, Times, Times, Serif;
     font-size: 100%;
 }
+.blog-post-container { 
+  max-width: 50em;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  font:1.2em/1.62 Georgia, Times, Times, Serif;
+  font-size: 100%;
+}
 h1,
 h2,
 h3,
@@ -19,6 +29,7 @@ h6 {
 a {
   color: black;
 }
+
 .nav-link-item {
   padding-right: 5px;
   font-family: sans-serif;
@@ -44,8 +55,12 @@ footer {
 }
 .blog-link {
   text-align: left;
-  display: inline;
+  display: inline-block;
+  max-width: 27em;
   text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .blog-date {
   float: right;
@@ -57,19 +72,22 @@ footer {
   .nav-link-item {color: white};
   .nav-link-text {color: white;}
 }
-@media screen and (min-width: 541px) and (max-width: 900px){
-  .container {display: inline-block;}
+@media screen and (min-width: 641px) and (max-width: 900px){
+  .container {display: block; margin-left: 3rem; margin-right: 3rem;}
   .nav-link-item {display: inline-block; padding-right: 1rem;}
+  .blog-link {
+    max-width: 23em;
+  }
 }
-@media screen and (max-width: 540px){
-  .container {display: inline-block;}
+@media screen and (max-width: 640px){
+  .container {display: block;}
   .nav-links {columns: 2; text-align: center;}
   .nav-link-item {padding: .5rem;}
   footer {font-size: .75rem;}
   .copyright {float: left; padding-bottom: .3rem;}
   .footer-links {float: left; clear: both; padding-bottom: 2rem;}
-  .blog-link {margin-left: -2rem; float: none; text-decoration: underline; display:block;}
-  .blog-date {margin-left: -2rem; float: none; display: block; margin-bottom: 1.2rem;}
+  .blog-link {max-width: none; overflow: auto; white-space: normal; float: none; text-decoration: underline; display:block;}
+  .blog-date {float: none; display: block; padding-bottom: 1.2rem;}
 }
 
 .nav-links {
