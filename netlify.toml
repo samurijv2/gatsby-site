@@ -1,5 +1,10 @@
+[build]
+command = "npm run build"
+publish = "public/"
+
 [[plugins]]
-   package = "netlify-plugin-gatsby-cache"
+package = "@netlify/plugin-gatsby"
+
 
 [[headers]]
    for = "/*"
