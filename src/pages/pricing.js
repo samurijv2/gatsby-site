@@ -92,9 +92,6 @@ const PricingPage = () => {
           </ul>
         </div>
       </div>
-      <div className={minimumAdSpend}>
-        <p><strong>I require a $500 per month minimum ad spend for all PPC &amp; SEM plans. For certain industries, a minimum spend of $1,000 per month is recommended.</strong><span><Link className={whyMinimum} to= "/FAQs#minimum-ad-spend">Why is there a minimum?</Link></span></p>
-        </div>
       <h3>What's a pilot campaign?</h3>
       <p>A pilot campaign is a test run. It's the simplest possible campaign we can run to learn whether paid ads will work for your business. It's an affordable way to test the waters without committing to anything long-term. Once the campaign ends, you'll know what it costs to acquire a lead, how likely your leads are to convert, and more. <Link to="/">See here</Link> for full details.</p>
       <h3><a id="new-campaign">What's a new campaign?</a></h3>
