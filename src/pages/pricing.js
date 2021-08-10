@@ -32,8 +32,8 @@ const PricingPage = () => {
         <li><a href="#SEO-prices">SEO &amp; Content Marketing Pricing</a></li>
       </ul>
       <h2 style={{marginBottom:"0px"}}><a id="PPC-prices">PPC &amp; SEM</a></h2>
-      <p style={{marginTop:"0px"}}>Under each PPC &amp; SEM plan, you're signing on to pay the monthly management fee (with the exception of pilot campaigns). New campaigns and channels are separate line items to be purchased as needed. This model ensures you'll never overpay for a service you don't need.</p> 
-      <p> When you launch a new campaign or push an existing campaign to a new channel, you pay more. During months where you let your existing campaigns ride, you pay much less. See here for more on how this approach compares to <Link to="/">other agency pricing models.</Link></p>
+      <p style={{marginTop:"0px"}}>The base price for each of my digital ad packages covers the management of your existing campaigns. It doesn't include the cost of building a new campaign or deploying an existing one to a new channel. I treat these services as separate line items for you to add on as needed. This model ensures you'll never overpay for a service you don't need.</p>
+      <p> When we launch a campaign for a new service or adapt an existing campaign to run on a new channel, you'll pay a bit more. When we optimize your existing ads without adding anything new, you pay much less. Most small businesses tend to sell only a handful of things that require their own ad campaigns. If that sounds like you, this approach will end up saving you lots of money over time.</p>
       <h3>What's included in the management fee?</h3>
       <p>The management fee covers everything needed to maintain your campaigns over time. All campaigns are optimized through A/B testing, ad rotation, bid adjustments, ad scheduling, negative keywords and more. I scour the ad landscape for risks and opportunities so you don't have to. My goal is to turn every campaign into a stream of leads that holds steady even in the face of significant changes. See below for full details on what each plan includes:</p>
         <div className={pricingContainer}>
@@ -93,7 +93,7 @@ const PricingPage = () => {
         </div>
       </div>
       <h3>What's a pilot campaign?</h3>
-      <p>A pilot campaign is a test run. It's the simplest possible campaign we can run to learn whether paid ads will work for your business. It's an affordable way to test the waters without committing to anything long-term. Once the campaign ends, you'll know what it costs to acquire a lead, how likely your leads are to convert, and more. <Link to="/">See here</Link> for full details.</p>
+      <p>A pilot campaign is a test run. It's the simplest possible campaign we can run to learn whether paid ads will work for your business. It's an affordable way to test the waters without committing to anything long-term. Once the campaign ends, you'll know what it costs to acquire a lead, how likely your leads are to convert, and more. <Link to="/blog/pilot-campaign">See here</Link> for full details.</p>
       <h3><a id="new-campaign">What's a new campaign?</a></h3>
       <p>A "new campaign" contains everything you need to advertise a product or service for which you haven't previously ran ads. New campaigns include keyword research, audience definition, ad creative, and landing page design. If you want to advertise something that doesn't already have these assets, you'll need a new campaign to do it.</p>
       <h3><a id="new-channel">What does it mean to deploy an existing campaign to a new channel?</a></h3>
@@ -102,7 +102,7 @@ const PricingPage = () => {
       <hr></hr>
       <p style={{lineHeight:"100%"}}><br></br></p>
       <h2 style={{marginBottom:"0px"}}><a id="SEO-prices">SEO &amp; Content Marketing</a></h2>
-      <p style={{marginTop:"0px"}}>I offer various SEO and content marketing services through a project-based pricing model. What "project" means to you is something we'll agree upon together. It depends on where you fall in the <Link to="/">SEO Maturity Model.</Link> Example projects include claiming your listings, writing blog posts, identifying backlink opportunities, etc. Projects vary in scope or size, but they share a common goal of driving a measurable increase in your search rankings.</p>
+      <p style={{marginTop:"0px"}}>I offer various SEO and content marketing services through a project-based pricing model. What "project" means to you is something we'll agree upon together. It will depend on where you're at in your SEO journey. Example projects include claiming your listings, writing blog posts, identifying backlink opportunities, etc. Projects vary in scope or size, but they share a common goal of driving a measurable increase in your search rankings.</p>
       <div className={pricingContainer}>
       <div className={pricingColumn}>
           <p className={valueCalloutWithNoValue}>-</p>
