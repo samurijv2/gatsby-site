@@ -9,7 +9,7 @@ const ContactPage = () => {
        title="Contact - Sam Waymire"
        description="This is how to reach me." 
       />
-      <p>Email is the best way to reach me. Send inquiries to <a href="mailto:sam@samwaymire.com">sam@samwaymire.com.</a></p> 
+      <p>Email is the best way to reach me. Send inquiries to <a href="mailto:hello@samwaymire.com">hello@samwaymire.com.</a></p> 
       <p>If you message me during work hours (M-F from 9-5 EST), I’ll make every attempt to get back to you within fifteen minutes. I reply to emails received after hours or over the weekend by 10AM the next business day.</p>
     </Layout>
   )
