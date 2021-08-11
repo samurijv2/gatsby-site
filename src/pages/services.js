@@ -6,7 +6,7 @@ const ServicesPage = () => {
   return (
     <Layout pageTitle="🧰 Services">
       <SEO
-       title="Services" 
+       title="Services | Waymire Analytics" 
        description="These are the things I can do for you."
       />
       <p style={{marginBottom:"0px", fontFamily: "Arial, Helvetica, sans-serif"}}><strong>Jump to:</strong></p>

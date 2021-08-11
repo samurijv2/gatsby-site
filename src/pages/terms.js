@@ -7,7 +7,7 @@ const TermsPage = () => {
   return (
     <Layout pageTitle="Terms of Service">
        <SEO
-       title="Terms of Service - Sam Waymire"
+       title="Terms of Service | Waymire Analytics"
        description="These are my site's terms of service." 
       /> 
 <p>Last updated: July 13, 2021</p>

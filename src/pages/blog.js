@@ -24,7 +24,7 @@ const BlogPage = ({data}) => {
   return (  
     <Layout pageTitle="✍️ Blog">
        <SEO
-       title="Blog - Sam Waymire" 
+       title="Blog | Waymire Analytics" 
        description="Welcome to my blog"
       />
             <ul className={blogPostList}>

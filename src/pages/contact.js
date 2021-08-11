@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <Layout pageTitle="📧 Contact">
        <SEO
-       title="Contact - Sam Waymire"
+       title="Contact | Waymire Analytics"
        description="This is how to reach me." 
       />
       <p>Email is the best way to reach me. Send inquiries to <a href="mailto:hello@samwaymire.com">hello@samwaymire.com.</a></p> 

@@ -23,7 +23,7 @@ const PricingPage = () => {
   return (
     <Layout pageTitle="💵 Pricing">
        <SEO
-       title="Pricing - Sam Waymire" 
+       title="Pricing | Waymire Analytics" 
        description="This is what it costs to work with me."
       />
       <p style={{marginBottom:"0px", fontFamily: "Arial, Helvetica, sans-serif"}}><strong>Jump to:</strong></p>

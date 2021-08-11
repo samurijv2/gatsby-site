@@ -6,7 +6,7 @@ const FAQsPage = () => {
   return (
     <Layout pageTitle="🙋 Frequently Asked Questions">
        <SEO
-       title="Frequently Asked Questions - Sam Waymire" 
+       title="Frequently Asked Questions | Waymire Analytics" 
        description="I get asked these questions a lot."
       />
       <p style={{marginBottom:"0px", fontFamily: "Arial, Helvetica, sans-serif"}}><strong>Jump to:</strong></p>

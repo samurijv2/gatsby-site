@@ -7,7 +7,7 @@ const PrivacyPage = () => {
   return (
     <Layout pageTitle="Privacy Policy">
        <SEO
-       title="Privacy Policy - Sam Waymire"
+       title="Privacy Policy | Waymire Analytics"
        description="This is my site's privacy policy." 
       /> 
       <p>I want to process as little personal information as possible when you use my website. That's why I've chosen Fathom Analytics for my website analytics, which doesn't use cookies and complies with the GDPR, ePrivacy (including PECR), COPPA and CCPA. Using this privacy-friendly website analytics software, your IP address is only briefly processed, and I (the person running this website) have no way of identifying you. As per the CCPA, your personal information is de-identified. You can read more about this on <a href="https://usefathom.com/compliance">Fathom Analytics' website.</a></p>

@@ -8,8 +8,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="👨‍💻 Hi, I'm Sam.">
        <SEO
-       title="Homepage - Sam Waymire" 
-       description="You found my beautiful website!"
+       title="Digital marketing agency for small businesses | Waymire Analytics" 
+       description="Waymire Analytics is a local business marketing agency in Frederick MD. We offer affordable digital marketing services for small business."
       />
       <h2 style={{fontSize:"1.3em"}}>I help local businesses attract more customers online.</h2>
       <p>If you've arrived at this site, you’re probably assessing whether digital marketing can help you achieve your business goals. You may be new to marketing your business online, or perhaps you had a bad experience with it in the past.</p> 
