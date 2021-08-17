@@ -108,6 +108,7 @@ const PricingPage = () => {
           <p className={valueCalloutWithNoValue}>-</p>
           <p className={priceTierName}><strong>Site Audit</strong></p>
           <p className={price}><strong>$249</strong><span className={perMonth}> (flat fee)</span></p>
+          <p className={plusAdSpend}>For sites with <strong>≤ 100 pages</strong><a style={{textDecoration:"none"}} href="#audit-page-limit">❓</a></p>
           <ul className={featuresList}>
             <li className={feature}><strong>One week </strong> turnaround time</li>
             <li className={feature}>Identifies current Google ranks</li>
@@ -149,6 +150,8 @@ const PricingPage = () => {
           </ul>
         </div>
         </div>
+        <h3><a id="audit-page-limit">Why is there a page limit on website audits?</a></h3>
+          <p>The length and complexity of an audit is directly related to the size of the site. <Link to="/contact">Contact me</Link> for a custom estimate if your site contains more than 100 pages.</p>
         <p style={{lineHeight:"100%"}}><br></br></p>
     </Layout>
   )
